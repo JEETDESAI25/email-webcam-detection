@@ -3,9 +3,14 @@ import imghdr
 import os
 from email.message import EmailMessage
 
-PASSWORD = os.getenv("PASSWORD")
-SENDER = "jeetdesai25@gmail.com"
-RECEIVER = "hetansheeshah@gmail.com"
+# Enter the app password of gmail
+PASSWORD = ""
+
+# Sender's Email ID
+SENDER = ""
+
+# Receiver Email ID
+RECEIVER = ""
 
 
 def send_email(image_path):
